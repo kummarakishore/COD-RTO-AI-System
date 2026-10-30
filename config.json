@@ -1,0 +1,21 @@
+{
+  "thresholds": {
+    "hold_cancel_prior_rto": 2,
+    "confirmation_prior_rto": 1,
+    "first_time_nudge": true,
+    "high_value_review_threshold": 1800,
+    "prepaid_discount_percent": 2,
+    "prepaid_discount_cap_inr": 30,
+    "confirmation_timeout_hours": 24
+  },
+  "economics": {
+    "forward_shipping_inr": 65,
+    "return_shipping_inr": 65,
+    "packaging_handling_inr": 25,
+    "returned_product_damage_rate": 0.08,
+    "product_cost_inr": 180,
+    "gross_margin_delivered": 0.62,
+    "confirmation_rto_avoidance_assumption": 0.6,
+    "prepaid_rto_avoidance_assumption": 0.7
+  }
+}
